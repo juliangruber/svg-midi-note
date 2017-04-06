@@ -1,7 +1,7 @@
 
 # svg-midi-note
 
-Render a Midi Note as SVG with velocitity and a selected state.
+Render a Midi Note as SVG with velocity and a selected state.
 
 ![screenshot 0](screenshots/0.png)
 
