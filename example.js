@@ -7,11 +7,7 @@ const render = () => html`
     <li>
       Normal:
       <svg height=20 width=50>
-        ${midiNote({
-          height: 20,
-          width: 50,
-          velocity: input.value / 100
-        })}
+        ${midiNote({ height: 20, width: 50, velocity: input.value / 100 })}
       </svg>
     </li>
     <li>
