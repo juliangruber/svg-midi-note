@@ -19,7 +19,7 @@ const el = midiNote({
   selected: true
 })
 
-document.body.appendChild(el)
+svg.appendChild(el)
 ```
 
 ## License
