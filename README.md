@@ -10,9 +10,11 @@ Render a Midi Note as SVG with velocity and a selected state.
 ## Usage
 
 ```js
-const midiNote = require('svg-midi-note')
+const Note = require('svg-midi-note')
 
-const el = midiNote({
+const note = new Note()
+
+const el = note.render({
   height: 20,
   width: 50,
   velocity: 0.8,
