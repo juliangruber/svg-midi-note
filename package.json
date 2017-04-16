@@ -6,8 +6,7 @@
   "description": "Render a Midi Note as SVG with velocitity and a selected state",
   "dependencies": {
     "bel": "^4.6.0",
-    "nanocomponent": "^3.0.2",
-    "nanomorph": "^4.0.2"
+    "microcomponent": "^3.1.0"
   },
   "devDependencies": {
     "beefy": "^2.1.8",

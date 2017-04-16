@@ -1,16 +1,20 @@
-const Note = require('.')
+const note = require('.')
 const html = require('bel')
 const morph = require('nanomorph')
 
-const normalNote = new Note
-const selectedNote = new Note
+const normalNote = note()
+const selectedNote = note()
 
 const render = () => html`
   <ul>
     <li>
       Normal:
       <svg height=20 width=50>
-        ${normalNote.render({ height: 20, width: 50, velocity: input.value / 100 })}
+        ${normalNote.render({
+          height: 20,
+          width: 50,
+          velocity: input.value / 100
+        })}
       </svg>
     </li>
     <li>
