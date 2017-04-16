@@ -2,7 +2,10 @@ const component = require('microcomponent')
 const html = require('bel')
 const noop = () => {}
 
-module.exports = () => component({ pure: true }).on('render', function () {
+module.exports = () => component({
+  name: 'svg-midi-note',
+  pure: true
+}).on('render', function () {
   const { height, width, velocity, selected, onclick } = this.props
   const hue = 280 - velocity * 280
   const bg = selected ? `hsl(${hue}, 80%, 70%)` : `hsl(${hue}, 100%, 50%)`
