@@ -1,6 +1,6 @@
 {
   "name": "svg-midi-note",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "license": "MIT",
   "repository": "juliangruber/svg-midi-note",
   "description": "Render a Midi Note as SVG with velocitity and a selected state",
