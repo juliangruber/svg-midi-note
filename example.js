@@ -13,7 +13,8 @@ const render = () => html`
         ${normalNote.render({
           height: 20,
           width: 50,
-          velocity: input.value / 100
+          velocity: input.value / 100,
+          onclick: () => console.log('click')
         })}
       </svg>
     </li>
@@ -24,7 +25,8 @@ const render = () => html`
           height: 20,
           width: 50,
           velocity: input.value / 100,
-          selected: true
+          selected: true,
+          onclick: () => console.log('click')
         })}
       </svg>
     </li>
